@@ -1,0 +1,57 @@
+<html>
+<head>
+<style>
+      h1{color: blue;
+       text-align: center;
+        background-color: lemon;}
+}
+.button { border:1px;
+          width: 100px;
+          background-color: blue; }
+body {background-color: darkgray;}
+
+</style>
+<title>Codetelligent Learning Management System</title>
+</head>
+
+<body>
+
+<h1>Welcome to Codetelligent Learning Management System</h1> 
+
+
+<div class="topnav">
+<div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="brand.jpg" height="200" width="400"></a>
+<a href="login/Register.html">Login/Register</a>
+<a href="Announcements.html">Announcements</a>
+<a href="Test Portal.html">Test Portal</a>
+<a href="Couses.html">Couses</a>
+</div>
+
+<h1>COURSES</h1>
+ 
+
+<h1>Data Science<h/h1>
+
+What is data science in simple words?
+Image result for what is data science
+Data science is the field of applying advanced analytics techniques and scientific principles to extract valuable information from data for business decision-making, strategic planning and other uses.
+
+
+
+What exactly data science do?
+In simple terms, a data scientist's job is to analyze data for actionable insights.
+ Specific tasks include: Identifying the data-analytics problems that offer the greatest opportunities to the organization. 
+Determining the correct data sets and variables.
+
+What is data science explain with example?
+For example, a data science platform might allow data scientists to deploy models as APIs, making it easy to integrate them into different applications.
+ Data scientists can access tools, data, and infrastructure without having to wait for IT.
+ The demand for data science platforms has exploded in the market.
+
+   <div class=" button">
+<a href="https://www.youtube.com/watch?v=xC-c7E5PK0Y > click me </a>
+</div>
+
+</body>
+</html>
