@@ -1,0 +1,118 @@
+header{background-color: #dadada;}
+
+body{background-color: #dadada;
+   font-size:larger ;   
+
+}
+
+
+.container{
+  height:240px;
+}
+
+strong{
+      font-size: 50px;
+      }
+
+p{
+  font-size: 25px;
+  position: relative;:left: 90px;
+  position: relative;top: 80px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: left;
+    text-decoration: none;}
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #0000FF;
+    color: white;
+    border-radius:100px ;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-whatsapp {
+    background: #00FF00;
+    color: white;
+    border-radius:100px ;
+
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #87CEEB;
+    color: white;
+    border-radius:100px ;
+
+  }
+
+  /* Twitter */
+  .fa-linkedin {
+    background: #5D5DD6;
+    color: white;
+    border-radius:100px ;
+
+  }
+  
+  /* Twitter */
+  .fa-instagram {
+    background: #CC1DCC;
+    color: white;
+    border-radius:100px ;
+
+  }
+  
+  /* Twitter */
+  .fa-youtube {
+    background: #FF0000;
+    color: white;
+    border-radius:100px ;
+
+  }
+  
+  ul a{
+    color: #333;
+    text-decoration: none;
+    padding: 13px;
+    transition: 3s ease;
+  }
+  
+  ul a:hover{
+  color: rgb(0, 0, 0);
+  }
+
+   /* Set a style for all buttons */
+   button {
+      background-color: #6e857c;
+      color: white;
+      padding: 14px 14px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 250px;
+      border-radius: 10px;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+  footer{height: 200px;
+        width: 1000px;
+        border-radius: 10px;
+  text-align: end;
+
+      }
+
