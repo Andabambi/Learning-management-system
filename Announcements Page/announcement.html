@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Announcement Page</title>
+
+<style>
+
+body  {
+  background-image: url("paper.gif");
+  background-color: lightgrey;
+}
+
+a:hover {
+  background-color: rgb(236, 242, 245);
+}
+
+
+.item1 {
+  grid-area: myArea;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(233, 233, 233);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+/* Style the content */
+.content {
+  background-color: #ddd;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #cac7c7;
+  padding: 10px;
+}
+
+div {
+  text-align: center;
+}
+
+img {
+
+  width: 200px;height: 200px
+}
+
+textarea {
+  width: 80%;
+  height: 200px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.colm-form .form-container {
+    box-shadow: 5px 5px 6px 1px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.colm-form .form-container input, .colm-form .form-container .btn-login {
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.colm-form .form-container input {
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    padding: 0 8px;
+    outline: none;
+}
+
+.colm-form .form-container input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.colm-form .form-container .btn-login {
+    background-color:red;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.colm-form .form-container a {
+    display: block;
+    color: #160f11;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #dadde1;
+}
+
+.colm-form .form-container a:hover {
+    text-decoration: underline;
+}
+
+
+.colm-form .form-container .btn-new {
+    background-color:rgb(226, 42, 42);
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 20px; 
+    position: relative; right: -86px;
+}
+
+.colm-form p {
+    font-size: 14px;
+}
+ 
+.colm-form p a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+.colm-form p a:hover {
+    text-decoration: underline;
+}
+
+
+</style>
+
+  </head>
+  <body>
+   
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="1601389635834-removebg-preview.png" alt=""></a>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+               
+              <a class="nav-link active" aria-current="page" href="#"><strong>ANNOUNCEMENTS</strong></a>
+              <a class="nav-link active" href="#"><strong>COURSES</strong></a>
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 <strong>TEST PORTAL</strong>
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <h1>Login</h1>
+                  <li><input type="text" placeholder="student number"></a></li>
+                  <li><input type="password" placeholder="password"></a></li>
+                  <li><button class="btn-login">Login</button>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+           
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="topnav">
+        <p><strong>ANNOUNCEMENTS</strong></p>
+        <form>
+          <textarea>Type Message</textarea>
+          
+        </form>
+    
+      </div>
+      <div class="footer">
+      <a href=""><p> <input type="submit" value="Reply">
+      </form> </p>
+        
+      </div>
+      </div>
+  </body>
+</html>
