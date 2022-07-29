@@ -169,6 +169,16 @@ textarea {
 .colm-form p a:hover {
     text-decoration: underline;
 }
+button{
+  background-color: #0d00A4;
+  color:white;
+  border-color: #0d00A4;
+  position: relative; left: 65px;
+}
+::placeholder{
+  position: relative;
+
+}
 
 
 </style>
@@ -197,19 +207,20 @@ textarea {
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                
-              <a class="nav-link active" aria-current="page" href="#"><strong>ANNOUNCEMENTS</strong></a>
-              <a class="nav-link active" href="/courses.html"><strong>COURSES</strong></a>
+              <a class="nav-link active" aria-current="page" href="#">ANNOUNCEMENTS</a>
+              <a class="nav-link active" href="/courses.html">COURSES</a>
             
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 <strong>TEST PORTAL</strong>
+                 TEST PORTAL
                 </a>
 
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <h1>Login</h1>
                   <li><input type="text" placeholder="student number"></a></li>
+                  <li></li>
                   <li><input type="password" placeholder="password"></a></li>
-                  <li><button class="btn-login">Login</button>
+                  <li> <button class="btn-login" href="courses.html">Login</button>
                 </ul>
               </li>
             </ul>
