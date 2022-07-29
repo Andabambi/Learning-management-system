@@ -1,8 +1,13 @@
-header{background-color: #dadada;}
+header{
+}
 
 body{background-color: #dadada;
-   font-size:larger ;   
-
+   font-size:larger ;
+   background-image: url(/cover.jpg);   
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+  
 }
 
 
@@ -16,8 +21,11 @@ strong{
 
 p{
   font-size: 25px;
-  position: relative;:left: 90px;
+  position: relative;left: -130px;
   position: relative;top: 80px;
+  color: white;
+  border: solid;
+  background-color: rgba(128, 128, 128, 0.527);
 }
 /* Style all font awesome icons */
 .fa {
@@ -115,4 +123,6 @@ p{
   text-align: end;
 
       }
+    
+  
 
