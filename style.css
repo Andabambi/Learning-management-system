@@ -33,7 +33,9 @@ p{
     font-size: 30px;
     width: 50px;
     text-align: left;
-    text-decoration: none;}
+    text-decoration: none;
+    height: 50px;
+  }
   
   /* Add a hover effect if you want */
   .fa:hover {
@@ -46,7 +48,7 @@ p{
   .fa-facebook {
     background: #0000FF;
     color: white;
-    border-radius:100px ;
+    border-radius:50% ;
   }
   
   /* Set a specific color for each brand */
@@ -55,7 +57,7 @@ p{
   .fa-whatsapp {
     background: #00FF00;
     color: white;
-    border-radius:100px ;
+    border-radius:50% ;
 
   }
   
@@ -63,7 +65,7 @@ p{
   .fa-twitter {
     background: #87CEEB;
     color: white;
-    border-radius:100px ;
+    border-radius:50% ;
 
   }
 
@@ -71,7 +73,7 @@ p{
   .fa-linkedin {
     background: #5D5DD6;
     color: white;
-    border-radius:100px ;
+    border-radius:50% ;
 
   }
   
@@ -79,7 +81,7 @@ p{
   .fa-instagram {
     background: #CC1DCC;
     color: white;
-    border-radius:100px ;
+    border-radius:50% ;
 
   }
   
@@ -87,7 +89,7 @@ p{
   .fa-youtube {
     background: #FF0000;
     color: white;
-    border-radius:100px ;
+    border-radius:50% ;
 
   }
   
