@@ -1,5 +1,5 @@
 .button{
-  position: relative; left: 1400px; vertical-align: 10px;
+  position: relative; left: 1400px; top:10px;
   background-color: #0d00a4;
   border-color:#0d00a4;
   text-emphasis-color: #ffff;
@@ -7,5 +7,6 @@
   height: 60px;
   width: 99px;
   padding-top: 10px;
+
 
 }
