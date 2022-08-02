@@ -1,8 +1,13 @@
-header{background-color: #dadada;}
+header{
+}
 
 body{background-color: #dadada;
-   font-size:larger ;   
-
+   font-size:larger ;
+   background-image: url(/cover.jpg);   
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+  
 }
 
 
@@ -16,8 +21,10 @@ strong{
 
 p{
   font-size: 25px;
-  position: relative;:left: 90px;
+  position: relative;left: -130px;
   position: relative;top: 80px;
+  color: rgb(0, 0, 0);
+
 }
 /* Style all font awesome icons */
 .fa {
@@ -25,7 +32,12 @@ p{
     font-size: 30px;
     width: 50px;
     text-align: left;
-    text-decoration: none;}
+    text-decoration: none;
+    height: 50px;
+    position: relative;
+    right: -190px;
+    top: 80px;
+  }
   
   /* Add a hover effect if you want */
   .fa:hover {
@@ -38,7 +50,7 @@ p{
   .fa-facebook {
     background: #0000FF;
     color: white;
-    border-radius:100px ;
+    border-radius:50% ;
   }
   
   /* Set a specific color for each brand */
@@ -47,7 +59,7 @@ p{
   .fa-whatsapp {
     background: #00FF00;
     color: white;
-    border-radius:100px ;
+    border-radius:50% ;
 
   }
   
@@ -55,7 +67,7 @@ p{
   .fa-twitter {
     background: #87CEEB;
     color: white;
-    border-radius:100px ;
+    border-radius:50% ;
 
   }
 
@@ -63,7 +75,7 @@ p{
   .fa-linkedin {
     background: #5D5DD6;
     color: white;
-    border-radius:100px ;
+    border-radius:50% ;
 
   }
   
@@ -71,7 +83,7 @@ p{
   .fa-instagram {
     background: #CC1DCC;
     color: white;
-    border-radius:100px ;
+    border-radius:50% ;
 
   }
   
@@ -79,7 +91,7 @@ p{
   .fa-youtube {
     background: #FF0000;
     color: white;
-    border-radius:100px ;
+    border-radius:50% ;
 
   }
   
@@ -104,6 +116,8 @@ p{
       cursor: pointer;
       width: 250px;
       border-radius: 10px;
+      position: relative;
+      
     }
     
     button:hover {
@@ -115,4 +129,10 @@ p{
   text-align: end;
 
       }
+
+      a{
+        color: white;
+      }
+    
+  
 
