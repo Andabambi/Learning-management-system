@@ -3,7 +3,7 @@ header{
 
 body{background-color: #dadada;
    font-size:larger ;
-   background-image: url(/cover.jpg);   
+   background-image: url(/img/Cover.jpg);   
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;

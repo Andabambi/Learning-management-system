@@ -1,0 +1,17 @@
+.button{
+  position: relative; left: 1400px; vertical-align: 10px; top: 22px;
+  background-color: #0d00a4;
+  border-color:#0d00a4;
+  text-emphasis-color: #ffff;
+  border-radius: 5px;
+  height: 60px;
+  width: 99px;
+  padding-top: 10px;
+  color: white;
+
+
+}
+body{
+  background-color: #dadada;
+  
+}
